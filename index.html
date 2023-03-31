@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Website</title>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(background.png);
+    background-color: rgba(0, 0, 0, 0.525);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+}
+.nav-bar{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+.nav-bar div {
+    margin: auto 20px ;
+    display: inline;
+
+}
+.header-links a{
+    margin: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550; 
+    font-size: small;
+    color: rgba(14, 14, 14, 0.957);
+
+    
+}
+
+.logo {
+    display: inline;
+}
+
+.drop-down{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.btn{
+    background-color: #C92F2F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: auto 50px;
+}
+.btn-text{
+    color: white;
+}
+.btn a {
+    margin: auto 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550; 
+    font-size: small;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    line-height: 20px;
+}
+.hero div {
+    margin: 10px auto;
+}
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.952);
+    font-weight: 550;
+
+}
+.sub-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(226, 224, 224, 0.952);
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="logo.svg" alt="" id="mainlogo">
+        </div>
+        <div class="header-links">
+        <a href="">HOME</a>
+        <a href="">PAGES <span class = 'drop-down'>V</span></a>
+        <a href="">MEGAMENU <span class = 'drop-down'>V</span></a>
+        <a href="">EVENTS</a>
+        <a href="">SERMONS</a>
+        <a href="">BLOGS</a>
+        <a href="">CONTACT</a>
+        <div id="search">
+            <img src="search-icon.png" alt="">
+        </div>
+        <div class = "btn"><a href="" ><span class="btn-text">DONATE US</span> </a></div>
+        
+    </div>
+
+</div>
+<div class="hero">
+    <div class="heading">
+        <p>Building The Hope</p>
+    </div>
+    <div class="sub-heading">
+        <p>Learn about our mission, our beliefs, and hope we have in Jesus.</p>
+    </div>
+    <div class = "btn"><a href="" ><span class="btn-text">ABOUT US</span> </a></div>
+</div>
+</body>
+
+</html>
